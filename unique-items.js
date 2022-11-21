@@ -4,4 +4,4 @@ function uniqueItemsFinder(arr) {
 	return uniqueItemsArr;
 }
 
-uniqueItemsFinder(['doom', 'MK', 'bioshock', 'doom', 'MK', 'systemshock', 'zelda']);
+console.log(uniqueItemsFinder(['doom', 'MK', 'bioshock', 'doom', 'MK', 'systemshock', 'zelda']));

@@ -11,4 +11,4 @@ function maxLengthWorldFinder(str) {
 	return maxLengthWord;
 }
 
-maxLengthWorldFinder("What is the average airspeed velocity of an unladen swallow");
+console.log(maxLengthWorldFinder("What is the average airspeed velocity of an unladen swallow"));
