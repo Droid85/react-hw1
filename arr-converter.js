@@ -1,7 +1,7 @@
 function arrConverter(arr, newArr = []) {
 	arr.forEach(el => {
 		if (Array.isArray(el)) {
-			return arrConverter(el, newArr);
+			arrConverter(el, newArr);
 		} else {
 			newArr.push(el);
 		}

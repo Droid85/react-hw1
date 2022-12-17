@@ -4,4 +4,4 @@ function squareOfSum(arr) {
 	return squareOfSumDigit;
 }
 
-squareOfSum([1, 2, 3, 4, 5]);
+console.log(squareOfSum([1, 2, 3, 4, 5]));

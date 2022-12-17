@@ -12,4 +12,4 @@ function isArraysEqual(arr1, arr2) {
 	return true;
 }
 
-isArraysEqual([1, 2, 3], [1, 2, 3]);
+console.log(isArraysEqual([1, 2, 3], [1, 2, 3]));
